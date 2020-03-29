@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PluralSight_CSharp_Design_Patterns_Composite.Structural;
 using PluralSight_CSharp_Design_Patterns_Composite.FileSystem;
+using PluralSight_CSharp_Design_Patterns_Composite.CompositesInNet;
 
 namespace PluralSight_CSharp_Design_Patterns_Composite
 {
@@ -14,8 +15,8 @@ namespace PluralSight_CSharp_Design_Patterns_Composite
         static void Main(string[] args)
         {
             //StructuralExample.Run();
-            FileSystemExample.Run();
-
+            //FileSystemExample.Run();
+            XElementExample.Run();
             Console.ReadKey();
         }
 
