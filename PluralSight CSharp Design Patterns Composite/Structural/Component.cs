@@ -17,8 +17,5 @@ namespace PluralSight_CSharp_Design_Patterns_Composite.Structural
 
         public abstract void PrimaryOperation(int depth);
 
-        public abstract void Add(Component c);
-
-        public abstract void Remove(Component c);
     }
 }

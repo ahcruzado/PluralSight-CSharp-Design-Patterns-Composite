@@ -12,19 +12,11 @@ namespace PluralSight_CSharp_Design_Patterns_Composite.Structural
         {
 
         }
-        public override void Add(Component c)
-        {
-            throw new NotImplementedException();
-        }
 
         public override void PrimaryOperation(int depth)
         {
             Console.WriteLine(new string('-',depth)+this.Name);
         }
 
-        public override void Remove(Component c)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
